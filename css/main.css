@@ -4,6 +4,8 @@ html {
 
 table {
   border-collapse: collapse;
+  background-color: #fff;
+  min-width: 45em;
 }
 
 th {
@@ -18,8 +20,17 @@ th {
   background-color: #efefef;
 }
 
+.nearest-playground-div {
+  max-width: 45em;
+}
+
 .logo {
   max-width: 200px;
+  height: inherit;
+}
+
+form {
+  height: 42px;
 }
 
 .search-bar {
@@ -27,17 +38,22 @@ th {
 }
 
 .search-icon {
-  max-width: 15px;
+  max-width: 20px;
   position: relative;
-  left: 3.5px;
-  top: 3.5px;
+  left: .5rem;
+  bottom: 1.5rem;
 }
 
-table {
+/* .scroll {
+  overflow: scroll;
+  height: 800px;
+} */
+
+.white {
   background-color: #fff;
 }
 
-.scroll {
-    overflow:scroll;
-    height:800px;
-}
+/*
+ul > li::before {
+  content: none;
+} */
