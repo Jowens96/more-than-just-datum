@@ -1,6 +1,9 @@
 html {
   font-family: "IBM Plex Sans", sans-serif;
-  overflow: scroll;
+}
+
+.nearest {
+  background-color: #efefef;
 }
 
 table {
@@ -9,16 +12,16 @@ table {
   min-width: 45em;
 }
 
+.table-wrapper {
+  overflow-x: hidden;
+}
+
 th {
   vertical-align: middle;
 }
 
 .top {
   background-color: #ddd;
-}
-
-.nearest {
-  background-color: #efefef;
 }
 
 .logo {
