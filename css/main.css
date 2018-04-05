@@ -1,5 +1,6 @@
 html {
   font-family: "IBM Plex Sans", sans-serif;
+  overflow: scroll;
 }
 
 table {
@@ -18,10 +19,6 @@ th {
 
 .nearest {
   background-color: #efefef;
-}
-
-.nearest-playground-div {
-  max-width: 45em;
 }
 
 .logo {
@@ -57,3 +54,11 @@ form {
 ul > li::before {
   content: none;
 } */
+
+ @media only screen and (min-width: 60em) {
+
+.table-wrapper {
+  overflow: visible;
+}
+
+}
