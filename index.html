@@ -12,55 +12,53 @@
 </head>
 <body>
 
-  <div class="top">
-    <div class="island-1-2">
-      <img class="logo push-1-4" src="images/logo.svg" alt="playground-finder-logo">
-    </div>
-  </div>
-  <form class="gutter-1-2" method="post" action="#">
-    <label class="search hidden" for="search">Search</label>
-    <input type="text" id="search" required>
+  <div class="island-1-2 darkgrey">
+    <img class="logo push-1-4" src="images/logo.svg" alt="playground-finder-logo">
 
-    <img class="search-icon icon" src="images/search.svg" alt="search-icon">
-  </form>
+  </div>
+
+  <div class="pad-b-1-2 darkgrey">
+    <form class="gutter-1-2" method="post" action="#">
+      <label class="search hidden" for="search">Search</label>
+      <input type="text" id="search" required>
+
+      <img class="search-icon icon" src="images/search.svg" alt="search-icon">
+    </form>
+  </div>
 
   <div class="grid">
 
-    <div class="table-wrapper unit xs-1 s-1 m-1-3 l-1-4 push-0">
-      <table class="nearest push-0">
-        <caption class="giga bold nearest island-1-4 push-0 not-italic">Nearest playgrounds</caption>
-        <tr>
-          <td class="gutter-1-2">
-            <ul class="white list-group island-1-4 push-0 gutter-1-2">
-              <li class="bold kilo">373</li>
-              <li class="italic kilo not-bold">Distance</li>
-              <li class="kilo break">0.75 km</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td class="gutter-1-2">
-            <ul class="white list-group island-1-4 push-0 gutter-1-2">
-              <li class="bold kilo">1700</li>
-              <li class="italic kilo not-bold">Distance</li>
-              <li class="kilo break">2.58 km</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td class="gutter-1-2">
-            <ul class="white list-group island-1-4 push-0 gutter-1-2">
-              <li class="bold kilo">960</li>
-              <li class="italic kilo not-bold">Distance</li>
-              <li class="kilo break">3.03 km</li>
-            </ul>
-          </td>
-        </tr>
-      </table>
+    <div class="nearest-wrapper unit xs-1 s-1 m-1-3 l-1-4 push-0">
+
+      <h1 class="giga bold nearest island-1-2 push-0 not-italic">Nearest playgrounds</h1>
+      <div>
+        <ul class="white list-group island-1-4 push-0 gutter-1-2">
+          <li class="bold kilo">373</li>
+          <li class="italic kilo not-bold">Distance</li>
+          <li class="kilo break">0.75 km</li>
+        </ul>
+      </div>
+
+      <div>
+        <ul class="white list-group island-1-4 push-0 gutter-1-2">
+          <li class="bold kilo">1700</li>
+          <li class="italic kilo not-bold">Distance</li>
+          <li class="kilo break">2.58 km</li>
+        </ul>
+      </div>
+
+      <div>
+        <ul class="white list-group island-1-4 push-0 gutter-1-2">
+          <li class="bold kilo">960</li>
+          <li class="italic kilo not-bold">Distance</li>
+          <li class="kilo break">3.03 km</li>
+        </ul>
+      </div>
+
     </div>
 
     <div class="unit xs-1 s-1 m-2-3 l-3-4 scrollable gutter-1-2">
-      <h1 class="push-0 giga island-1-4 white">Playgrounds in the city</h1>
+      <h2 class="push-0 giga gutter-1-4 pad-t-1-4 white">Playgrounds in the city</h2>
       <table>
         <caption></caption>
         <thead>
@@ -366,7 +364,6 @@
       </table>
     </div>
   </div>
-
 
 </body>
 </html>

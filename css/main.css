@@ -2,14 +2,22 @@ html {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-.nearest {
+.nearest-wrapper {
   background-color: #efefef;
 }
+
+ .darkgrey {
+   background-color: #ddd;
+ }
 
 table {
   border-collapse: collapse;
   background-color: #fff;
   min-width: 45em;
+}
+
+li {
+  background-color: #fff;
 }
 
 .table-wrapper {
@@ -20,17 +28,13 @@ th {
   vertical-align: middle;
 }
 
-.top {
-  background-color: #ddd;
-}
-
 .logo {
   max-width: 200px;
   height: inherit;
 }
 
 form {
-  height: 42px;
+  height: 25px;
 }
 
 .search-bar {
@@ -42,14 +46,6 @@ form {
   position: relative;
   left: .5rem;
   bottom: 1.5rem;
-}
-
-.white {
-  background-color: #fff;
-}
-
-.break {
-  float: right;
 }
 
 @media only screen and (min-width: 38em) {
@@ -68,27 +64,17 @@ form {
 
 }
 
-  @media only screen and (min-width: 90em) {
+@media only screen and (min-width: 90em) {
 
   .form-wrap {
     position: absolute;
   }
 
-  form  {
+  form {
     position: relative;
     bottom: 4.2em;
     left: 17em;
     width: 1080px;
   }
-
-/*  .grid {
-    position: absolute;
-  }
-
-.unit {
-  position: relative;
-  bottom: 2em; */
-
-}
 
 }
