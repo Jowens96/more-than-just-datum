@@ -44,24 +44,14 @@ form {
   bottom: 1.5rem;
 }
 
-/* .scroll {
-  overflow: scroll;
-  height: 800px;
-} */
-
 .white {
   background-color: #fff;
 }
 
-/*
-ul > li::before {
-  content: none;
-} */
+@media only screen and (min-width: 60em) {
 
- @media only screen and (min-width: 60em) {
-
-.table-wrapper {
-  overflow: visible;
-}
+  .table-wrapper {
+    overflow: visible;
+  }
 
 }
